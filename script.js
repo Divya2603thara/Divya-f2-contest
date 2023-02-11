@@ -31,6 +31,7 @@ function addData() {
   console.log(arr)
 }
 
+
 //removing marks
 function removeFailedStudent() {
   let removefailStudent = arr.filter(student => student.marks >= 50);
